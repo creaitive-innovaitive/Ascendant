@@ -1,0 +1,50 @@
+[
+  {
+    "id": "beginner-cardano",
+    "title": "Getting started on Cardano",
+    "subject": "cardano",
+    "level": "Beginner",
+    "author": "Ascendant",
+    "status": "live",
+    "price": 0,
+    "duration": "~35 min",
+    "summary": "From zero to self-custody in four practical steps. No prior crypto experience needed.",
+    "url": "../courses/beginner/index.html",
+    "modules": [
+      { "title": "What is Cardano & ADA?", "preview": true, "url": "../courses/beginner/module-1.html" },
+      { "title": "Buying your first ADA", "preview": true, "url": "../courses/beginner/module-2.html" },
+      { "title": "Setting up your wallet", "preview": false, "url": "../courses/beginner/module-3.html" },
+      { "title": "Moving ADA off an exchange", "preview": false, "url": "../courses/beginner/module-4.html" }
+    ]
+  },
+  {
+    "id": "beginner-investing",
+    "title": "Investing basics: what history shows",
+    "subject": "investing",
+    "level": "Beginner",
+    "author": "Ascendant",
+    "status": "soon",
+    "summary": "How markets, risk and compounding have behaved historically. Educational and historical only, never personal advice.",
+    "modules": []
+  },
+  {
+    "id": "econ-as-a-level",
+    "title": "A-Level Economics explainers",
+    "subject": "economics",
+    "level": "Students",
+    "author": "Ascendant",
+    "status": "soon",
+    "summary": "Concept explainers with interactive diagrams for A-Level Economics students.",
+    "modules": []
+  },
+  {
+    "id": "cs-a-level",
+    "title": "A-Level Computer Science explainers",
+    "subject": "cs",
+    "level": "Students",
+    "author": "Ascendant",
+    "status": "soon",
+    "summary": "Algorithms, data structures and Python worked examples for A-Level Computer Science students.",
+    "modules": []
+  }
+]

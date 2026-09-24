@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marketplace — Ascendant</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="store.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="../index.html" class="nav-brand"><span class="nav-brand-name">Ascend<span>ant</span></span></a>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="index.html">Marketplace</a>
+      <a href="../index.html#tiers">The Ascent</a>
+      <a href="../index.html#transparency">About</a>
+    </div>
+    <div class="nav-right"><a class="btn-outline" href="../index.html#learn" style="text-decoration:none">Free courses</a></div>
+  </nav>
+  <main class="store-wrap">
+    <section class="store-hero">
+      <h1>Learn from independent teachers, <em>paid on Cardano</em></h1>
+      <p>Pay per lesson, module or course. Every purchase sits in escrow and refunds automatically if the course doesn't deliver.</p>
+      <div class="trust-row">
+        <span class="chip green">Automatic refunds</span>
+        <span class="chip">Card, stablecoin or ADA</span>
+        <span class="chip ada">ADA discount at checkout</span>
+        <span class="chip">Access pass in your own wallet</span>
+      </div>
+    </section>
+    <div class="filters" id="filters">
+      <button class="filter active" data-subject="all">All</button>
+      <button class="filter" data-subject="cardano">Cardano</button>
+      <button class="filter" data-subject="investing">Investing</button>
+      <button class="filter" data-subject="economics">Economics</button>
+      <button class="filter" data-subject="cs">Computer Science</button>
+    </div>
+    <div class="grid" id="grid"></div>
+    <section class="creator-cta">
+      <h2>Teach on Ascendant</h2>
+      <p>Teachers and authors will be able to list their own courses, set their own prices and get paid straight to their wallet. Creator sign-up opens after launch.</p>
+    </section>
+  </main>
+  <script src="store.js"></script>
+  <script>initStore();</script>
+</body>
+</html>
